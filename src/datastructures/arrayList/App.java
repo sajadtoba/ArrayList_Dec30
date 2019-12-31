@@ -27,12 +27,15 @@ public class App {
         }
         // inside the Main Method I need to create
         // Calculate the average goal salary for the student class
+        //double average = findAverage(students);
         double average = findAverage(students);
         System.out.println("Average Goal Salary" + average);
+
         findStudentWithHighestSalary(students);
     }
 
-    public static double findAverage(ArrayList<Student> studentList) {
+    //public static double findAverage(ArrayList<Student> studentList) {
+    public static double findAverage(ArrayList<Student>studentList) {
         // get the number of students
         int count = studentList.size();
         double total = 0;
