@@ -15,10 +15,13 @@ public class App {
         for (int i = 0; i < size; i++) {
             System.out.println("Please enter student" + i + "'s id:");
             String id = sc.next();
+
             System.out.println("Please enter student" + i + "'s firstname");
             String firstName = sc.next();
+
             System.out.println("Please enter student" + i + "'s lastname");
             String lastName = sc.next();
+
             System.out.println("Please enter student" + i + "'s desired Salary");
             double goalSalary = sc.nextDouble();
             Student st = new Student(id, firstName, lastName, goalSalary);

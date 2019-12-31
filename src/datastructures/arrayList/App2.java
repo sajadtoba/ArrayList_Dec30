@@ -60,7 +60,8 @@ public class App2 {
 
             }
         // after the for loop
-        System.out.println(highestSalaryStudent.getId() + "_"+ highestSalaryStudent.getFirst_Name()+"_"+highestSalaryStudent.getLast_Name()
+
+        System.out.println    (highestSalaryStudent.getId()    + "_"+ highestSalaryStudent.getFirst_Name()+"_"+highestSalaryStudent.getLast_Name()
                 +"_"+ highestSalaryStudent.getGoalSalary());
         // Now we go the inside The Main Method Class to print out the information
 
